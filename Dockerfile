@@ -20,8 +20,8 @@ RUN set -x \
     libunwind8 \
     gettext \
     apt-transport-https \
-    mono-complete="$MONO_DEBIAN_VERSION" \
-    ca-certificates-mono="$MONO_DEBIAN_VERSION" \
+    mono-complete \
+    ca-certificates-mono \
     referenceassemblies-pcl \
     mono-xsp4 \
     wget \
